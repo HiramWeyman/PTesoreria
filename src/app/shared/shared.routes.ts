@@ -7,6 +7,7 @@ import { PreciosComponent } from './precios/precios.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { LoginComponent } from './login/login.component';
+import { RegistrarComponent } from './registrar/registrar.component';
 
 
 
@@ -18,6 +19,7 @@ const sharedRoutes: Routes = [
   { path: 'noticias', component: NoticiasComponent },
   { path: 'contactanos', component: ContactanosComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'registrar', component: RegistrarComponent },
   //{ path: '**', pathMatch: 'full', redirectTo: '' }
 ];
 

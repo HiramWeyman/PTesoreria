@@ -28,6 +28,7 @@
     "highcharts-angular": "^2.4.0",
     "rxjs": "^6.5.5",
     "rxjs-compat": "^6.0.0-rc.0",
+    "sweetalert2": "^9.13.2",
     "zone.js": "^0.10.3"
   },
   "devDependencies": {

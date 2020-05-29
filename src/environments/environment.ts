@@ -4,5 +4,9 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  //rutaAPI: 'http://api.steujed.org.mx/api',
+  rutaAPI: 'https://localhost:44354/api',
+  
+  rutaDashboard: 'http://localhost:4200/'
 };

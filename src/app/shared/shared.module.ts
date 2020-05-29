@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { SHARED_ROUTES } from './shared.routes';
 
@@ -22,14 +23,12 @@ import { PreciosComponent } from './precios/precios.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { LoginComponent } from './login/login.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { EncabezadoComponent } from './encabezado/encabezado.component';
-import { PieComponent } from './pie/pie.component';
 
 //material
 import { MatToolbarModule } from '@angular/material/toolbar/';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { RegistrarComponent } from './registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -52,21 +51,15 @@ import { MatMenuModule } from '@angular/material/menu';
     NoticiasComponent,
     ContactanosComponent,
     LoginComponent,
-    SidebarComponent,
-    PieComponent,
-    EncabezadoComponent
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
     SHARED_ROUTES,
+    FormsModule,
     MatToolbarModule,
     MatIconModule,
     MatMenuModule
-  ],
-  exports:[
-    EncabezadoComponent,
-    PieComponent,
-    SidebarComponent
   ],
   providers: [],
   bootstrap: [InicioComponent]
