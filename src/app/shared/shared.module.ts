@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { SHARED_ROUTES } from './shared.routes';
 
@@ -57,6 +57,7 @@ import { RegistrarComponent } from './registrar/registrar.component';
     BrowserModule,
     SHARED_ROUTES,
     FormsModule,
+    ReactiveFormsModule,
     MatToolbarModule,
     MatIconModule,
     MatMenuModule
