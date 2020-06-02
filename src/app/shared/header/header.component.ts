@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-header',
@@ -10,5 +11,11 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  login() {
+
+      window.location.href = `${environment.rutaDashboard}`;
+
+    }
 
 }
